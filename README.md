@@ -1,12 +1,15 @@
 # rollName
 基于 DCiP 框架开发的课堂点名工具，新增 Excel 记录未到学生功能，提供便捷的课堂点名和学生出勤管理解决方案。系统支持随机点名、缺勤记录、数据统计等功能。
+
 主要功能：
  （1）随机点名：支持单人/多人随机点名模式
  （2）缺勤记录：一键记录未到学生信息
  （3）数据持久化：自动保存记录到 Excel 文件
  （4）可视化展示：彩色标记特殊学生状态
  （5）历史查询：查看班级缺勤历史记录
+
  核心模块说明：
+ 
   一、_model.js文件
   // 初始化 Excel 文件
 function initExcel() {
@@ -16,6 +19,7 @@ function initExcel() {
 exports.recordAbsentees = function(absentees, className) {
   // 添加记录到 Excel
 };
+
 二、mainfrm_pane.js
 // 单人点名
 function OnSingle() {
@@ -25,6 +29,7 @@ function OnSingle() {
 function onRecordAbsent() {
   // 调用数据模型记录当前学生
 }
+
 三、缺勤记录存储在：
    unit/erg/absent_records.xlsx
 
