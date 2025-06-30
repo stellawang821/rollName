@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kul_pkg type="entry" name="erg" xmlns="http://www.kingmesh.com">
+  <pkgid name="mainfrm">
+    <location>mainfrm.kul</location>
+    <value>nil</value>
+  </pkgid>
+  <formid name="mainfrm_pane">
+    <location>mainfrm.kul</location>
+    <value>nil</value>
+  </formid>
+</kul_pkg>
